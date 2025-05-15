@@ -293,6 +293,8 @@ class CatVTONTrainerWithClothMask:
             condition_latents_uncond = torch.zeros_like(condition_latents)
             mask_dropout = torch.rand(images.shape[0], device=self.device) < self.cfg_dropout_prob
             condition_latents[mask_dropout] = condition_latents_uncond[mask_dropout]
+            cond_mask_latents[mask_dropout] = cond_mask_latents[mask_dropout]
+
             # print("mask_dropout:", mask_dropout)
             
             

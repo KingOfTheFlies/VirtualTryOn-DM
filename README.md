@@ -12,7 +12,7 @@ For **CatVTON**, this repository also includes additional experimental code to e
 All instructions from the original repositories have been followed as closely as possible, with the exception of modifications introduced as part of the current research project.
 
 > **Checkpoints** used in the CatVTON experiments can be accessed via the following link:  
-> [Download CatVTON Experiment Checkpoints]()
+> [Download CatVTON Experiment Checkpoints](https://drive.google.com/drive/folders/1gebKvTwj6QplSvxnlrGpjBoM_5CfZYKS?usp=sharing)
 
 ---
 
